@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://prodtestformatter/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://prodtestformatter/locale/browserOverlay.dtd">
+
+<overlay id="prodtestformatter-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://prodtestformatter/content/browserOverlay.js" />
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="prodtestformatter-string-bundle"
+      src="chrome://prodtestformatter/locale/browserOverlay.properties" />
+  </stringbundleset>
+
+  <popup id="contentAreaContextMenu">
+        <menuitem id="prodtest-menu-item"
+                  insertafter="context-selectall"
+                  accesskey="H"
+                  class="prodtest-iconic"
+                  label="&prodtest.menu.label;"
+                  oncommand="ProdtestFormatterChrome.BrowserOverlay.openLink(event);"/>
+  </popup>
+
+</overlay>
