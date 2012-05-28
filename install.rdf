@@ -9,7 +9,7 @@
     <em:description>Formats Prodtest results using Willy Wu's tool (http://wwu-wsl/cgi-bin/parse_prodtest_xml.py)</em:description>
     <em:version>1.0</em:version>
     <em:creator>jtatagiri</em:creator>
-    <em:homepageURL>https://sites.google.com/a/salesforce.com/jtatagiri/tools/firefox/prodtest-formatter</em:homepageURL>
+    <em:homepageURL>https://github.com/d3narius/prodtest-formatter</em:homepageURL>
     <em:type>2</em:type>
 
     <!-- Mozilla Firefox -->
